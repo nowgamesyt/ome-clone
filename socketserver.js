@@ -17,7 +17,7 @@ module.exports = (io, app) => {
         return new Promise(resolve => {
           setTimeout(() => {
             resolve('resolved');
-          }, 5000);
+          }, 5000000000000000000000000000000);
         });
       }
       async function asyncCall() {
