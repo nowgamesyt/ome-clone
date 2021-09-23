@@ -172,7 +172,7 @@
   }
   let resetTimer = () => {
       clearTimeout(t);
-      t = setTimeout(kick, 60000);  // time is in milliseconds
+      t = setTimeout(kick, 120000);  // time is in milliseconds
   }
 
 })();
