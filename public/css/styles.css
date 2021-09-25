@@ -163,6 +163,7 @@
   word-wrap: break-word;
   white-space: -moz-pre-wrap;
   white-space: pre-wrap;
+  padding-bottom: 1.2rem;
 }
 
 #squareOne {
