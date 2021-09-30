@@ -229,6 +229,10 @@
   }
   .user_text {
     font-size: 1em;
+    color: #000000;
+  }
+  #termsAndCo {
+    color: #35E105;
   }
   #msgs .one .right,
   #msgs .one .left {
