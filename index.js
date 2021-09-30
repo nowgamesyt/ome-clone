@@ -26,6 +26,17 @@ app.get('/', (req, res) => {
   res.render('index', { noOfUsers: noOfUsers });
 });
 
+app.get('/test', (req, res) => {
+  let noOfUsers = onlineUsers.length;
+  if (noOfUsers > 1) {
+    noOfUsers = noOfUsers + " users";
+  }
+  else {
+    noOfUsers = noOfUsers + " user";
+  }
+  res.render('test', { noOfUsers: noOfUsers });
+});
+
 app.get('/chat', (req, res) => {
   let randomName = faker.name.findName();
   res.render('chat', { userName: randomName });
