@@ -205,6 +205,9 @@
   color: #000000;
 }
 
+#termsAndCo {
+  color: #35E105;
+}
 
 @media screen and (max-width: 768px) {
   .txt {
@@ -235,9 +238,7 @@
   .user_text {
     font-size: 1em;
   }
-  #termsAndCo {
-    color: #35E105;
-  }
+
   #msgs .one .right,
   #msgs .one .left {
     position: relative;
