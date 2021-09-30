@@ -201,6 +201,11 @@
   font-weight: bolder;
 }
 
+.user_text {
+  color: #000000;
+}
+
+
 @media screen and (max-width: 768px) {
   .txt {
     display: none;
@@ -229,7 +234,6 @@
   }
   .user_text {
     font-size: 1em;
-    color: #000000;
   }
   #termsAndCo {
     color: #35E105;
