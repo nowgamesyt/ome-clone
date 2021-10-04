@@ -116,7 +116,9 @@
     let decryptedMessage = decode(data.message.encryptedMessage);
     let msgs = document.querySelector("#msgs");
     let template;
+    /*
     decryptedMessage = autolinker.link(decryptedMessage);
+    */
     decryptedMessage = decryptedMessage.replace(/</g, '&lt;').replace(/>/g, '&gt;');
     if (socket.id == data.senderId) {
       template = `<div class="one column row msg"><div class="right floated green seven wide column msg_div">${decryptedMessage}<span class="times_css">${data.timeStamp}</span></div></div><br>`;
