@@ -75,7 +75,7 @@
         if (typeMessageShown === false) {
           let template = `<div id="typing"><div class="toast-top-center" id="toast-container"><div class="toast msg_div grey" style="width:230px"><div class="toast-title white-text">Stranger typing . . .</div></div></div>`;
           msgs.insertAdjacentHTML('beforeend', template);
-          typeMessageShown = false;
+          typeMessageShown = true;
         }
         else {
           window.clearTimeout(stop);
